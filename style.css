@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,30%),rgba(0,0,0,50%)),url(agricultural-machine-1919021.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    color: orange;
+    font-family: monospace;
+    background-color: #fff;
+}
+h1 span{
+    color: greenyellow;
+}
+h2{
+    color: #fff;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    font-family: monospace;
+}
+h6{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: #fff;
+    background-color: greenyellow;
+    border: none;
+    padding: 7px 15px;
+}
